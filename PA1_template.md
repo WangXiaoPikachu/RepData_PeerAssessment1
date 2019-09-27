@@ -96,8 +96,7 @@ ggplot(data=Q1,aes(x=Steps))+geom_histogram(bins=50)+xlab("Steps")+labs(title="T
 ```
 ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 ```
-
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
+![plot of chunk unnamed-chunk-10](https://github.com/WangXiaoPikachu/RepData_PeerAssessment1/blob/master/instructions_fig/Q1.png)
 
 ## Q2 Mean and median number of steps taken each day
 First,calculate and report the mean of the total number of steps taken per day
