@@ -145,7 +145,7 @@ p3 <- ggplot(Q3, aes(x=interval, y=Avg.steps))
 p3 + geom_line()+xlab("Interval")+ylab("Average Number of Steps")+ggtitle("Average Number of Steps per Interval")
 ```
 
-![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.png)
+![plot of chunk unnamed-chunk-15](https://github.com/WangXiaoPikachu/RepData_PeerAssessment1/blob/master/instructions_fig/Q3.png)
 
 ## Q4 The 5-minute interval that, on average, contains the maximum number of steps  
 First, find the maximum number of steps for a 5-minute interval.
@@ -223,7 +223,7 @@ Second,Make a histogram of the total number of steps taken each day
 ggplot(data=Q6,aes(x=Steps))+geom_histogram(bins=50)+xlab("Steps")+labs(title="Total Steps per Day after cleaned dataset")
 ```
 
-![plot of chunk unnamed-chunk-21](figure/unnamed-chunk-21-1.png)
+![plot of chunk unnamed-chunk-21](https://github.com/WangXiaoPikachu/RepData_PeerAssessment1/blob/master/instructions_fig/Q6.png)
 
 ## Q7 Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 First,create a new factor variable in the dataset with two levels - “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
@@ -246,7 +246,7 @@ Third,Panel plot comparing the average number of steps taken per 5-minute interv
 ggplot(data=Q7,aes(x=interval,y=Avg.steps))+geom_line()+facet_grid(.~DayCategory) 
 ```
 
-![plot of chunk unnamed-chunk-24](figure/unnamed-chunk-24-1.png)
+![plot of chunk unnamed-chunk-24](https://github.com/WangXiaoPikachu/RepData_PeerAssessment1/blob/master/instructions_fig/Q7.png)
   
   
 **The step activity trends are different based on whether the day occurs on a weekend or not. This may be due to people having an increased opportunity for activity beyond normal work hours for those who work during the week.**
